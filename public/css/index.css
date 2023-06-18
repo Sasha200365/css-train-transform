@@ -161,24 +161,7 @@
 .task15:hover {
   transition-duration: 1s;
   transition-timing-function: ease-out;
-  transform: matrix3d(
-    0.4,
-    0,
-    0,
-    0,
-    0,
-    1,
-    1,
-    1,
-    0,
-    1.1,
-    1.1,
-    1.1,
-    0,
-    0,
-    0,
-    0
-  );
+  transform: matrix(0.4, 1.1, 1.1, 0.4, 1, 1);
 }
 
 .task16 {
